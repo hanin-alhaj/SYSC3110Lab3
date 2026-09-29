@@ -18,7 +18,7 @@ public class AddressBook {
         if (index >= 0 && index < myBuddies.size()) {
             return myBuddies.remove(index);
         }
-        return null;
+        return null; // editing source code from github
     }
 
     public static void main(String[] args) {
