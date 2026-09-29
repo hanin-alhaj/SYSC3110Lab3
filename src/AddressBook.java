@@ -27,4 +27,8 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0); //lab 3 commit test
     }
+
+    private void branch(int a) {
+        a++;
+    }
 }
